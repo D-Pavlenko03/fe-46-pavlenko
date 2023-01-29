@@ -2,12 +2,12 @@
    padding: 100px 0 50px;
 }
 
-.tab-panel button {
+.tab-panel button  {
    background: transparent;
-   border: 1px solid transparent;
-   border-radius: 5px 5px 0px 0px;
    max-width: 203px;
    width: 100%;
+   border: 1px solid transparent;
+   border-radius: 5px 5px 0px 0px;
    padding: 10px 16px;
    font-family: var(--Open-Sans);
    font-weight: 400;
@@ -79,20 +79,23 @@
    font-size: 18px;
    line-height: 25px;
    color: var(--white-color);
-   max-width: 270px;
-   height: 58px;
-   width: 100%;
    cursor: pointer;
    transition: background .3s ease-in;
 }
 
 .button button:hover {
-   background: #AB4949;
+   background: var(--active-color);;
 }
 
 .button button:active {
    background: var(--accent-color);
-   box-shadow: inset 0px 0px 10px #AB4949;
+   box-shadow: inset 0px 0px 10px var(--active-color);;
+}
+
+.tab__botton {
+   max-width: 270px;
+   height: 58px;
+   width: 100%;
 }
 
 .tab-container__image-wrapper img {
