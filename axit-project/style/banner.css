@@ -51,7 +51,7 @@
    width: 100%;
 }
 
-.donwload-btn button {
+.download-btn button {
    border: 2px solid #FFFFFF;
    background: transparent;
    font-family: var(--Open-Sans);
@@ -63,18 +63,18 @@
    transition: all .3s ease-in;
 }
 
-.donwload-btn button:hover {
+.download-btn button:hover {
    border: 2px solid var(--accent-color);
    color: var(--accent-color);
 }
 
-.donwload-btn button:active {
+.download-btn button:active {
    border: 2px solid var(--active-color);
    color: var(--white-color);
    background: var(--active-color);
 }
 
-.donwload-btn .banner__btn {
+.download-btn .banner__btn {
    max-width: 270px;
    width: 100%;
    height: 58px;

@@ -18,13 +18,13 @@
    cursor: pointer;
 }
 
-.tab-panel button.is-active {
+.tab-panel button.tab-panel_active {
    border: 1px solid #C6CBCD;
    border-bottom: 1px solid transparent;
    position: relative;
 }
 
-.tab-panel button.is-active::after {
+.tab-panel button.tab-panel_active::after {
    content: '';
    position: absolute;
    max-width: 203px;
@@ -89,10 +89,10 @@
 
 .button button:active {
    background: var(--accent-color);
-   box-shadow: inset 0px 0px 10px var(--active-color);;
+   box-shadow: inset 0px 0px 10px #AB4949;
 }
 
-.tab__botton {
+.tab__button {
    max-width: 270px;
    height: 58px;
    width: 100%;
