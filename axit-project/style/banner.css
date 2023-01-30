@@ -50,7 +50,7 @@
    max-width: 270px;
    width: 100%;
 }
-
+/* Возможно надо указать download-btn */
 .donwload-btn button {
    border: 2px solid #FFFFFF;
    background: transparent;

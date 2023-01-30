@@ -57,9 +57,9 @@
                   <button>tab 2</button>
                   <button>tab 3</button>
                </div>
-
+               <!-- Отсутствует главный tab блок по БЭМ -->
                <div class="tab-container">
-                  <div class="tab-content is-active">
+                  <div class="tab-content is-active"> <!-- tab-content_active - модификатор по БЭМ -->
                      <div class="tab-content__box">
                         <div class="tab-content__title">
                            <h3>Tabs with soft transitioning effect.</h3>
@@ -79,7 +79,7 @@
                            </h5>
                         </div>
 
-                        <div class="button">
+                        <div class="button"> <!-- Кнопка независимая по БЭМ ? -->
                            <button class="tab__botton">Download</button>
                         </div>
                      </div>
@@ -181,7 +181,7 @@
             </div>
 
             <div class="pricing__prices">
-               <div class="price-list">
+               <div class="price-list"> <!-- Ты говоришь что это Лист, т.е <ul>, но используешь h5 =( Сделай его списком <ul><li>-->
                   <h4>Basic</h4>
                   <h3>$10</h3>
                   <h5>Free for life</h5>
@@ -193,8 +193,8 @@
                   <h5>1 gb of space</h5>
                   </ul>
                </div>
-
-               <div class="price-list center-list">
+               <!-- Ты говоришь что это Лист, т.е <ul>, но используешь h5 =( Сделай его списком <ul><li>-->
+               <div class="price-list center-list"> <!-- center-list ->> price-list_active -->
                   <h4>Optima</h4>
                   <h3>$20</h3>
                   <h5>Free for life</h5>
@@ -207,7 +207,7 @@
                   </ul>
                </div>
 
-               <div class="price-list">
+               <div class="price-list"> <!-- Ты говоришь что это Лист, т.е <ul>, но используешь h5 =( Сделай его списком <ul><li>-->
                   <h4>Pro</h4>
                   <h3>$30</h3>
                   <h5>Free for life</h5>
